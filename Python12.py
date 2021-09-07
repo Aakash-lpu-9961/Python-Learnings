@@ -1,0 +1,13 @@
+# Program to show the example of Python comparision operators
+print("Enter the value or operand-1: ")
+p=int(input())
+print("Enter the value or operand-2: ")
+q=int(input())
+print("Entered value or operand-1 is : ",p)
+print("Entered value or operand-2 is : ",q)
+print("p==q : ",p==q)
+print("p!-q : " ,p!=q)
+print("p<q  : " ,p<q)
+print("p>q  : " ,p>q)
+print("p<=q  : " ,p<=q)
+print("p>=q  : " ,p>=q)

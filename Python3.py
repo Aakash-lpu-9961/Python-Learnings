@@ -1,0 +1,14 @@
+print(30 *"Hello World \t");
+var1=31;
+var2=33.66;
+var4= "Hello Mr.";
+print("Enter your name:");
+var3=input();
+print("Your Name is", var3);
+print("Type1:",type(var1));
+print("Type2",type(var2));
+print("Type3",type(var3));
+print(100*str(var4+var3));
+print(float(var1)+ float(var2));
+print(int(var1)+int( var2));
+print(10*"How are you bro\t");
