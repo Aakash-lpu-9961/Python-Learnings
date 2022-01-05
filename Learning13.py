@@ -29,7 +29,53 @@ def function(d, e):
 v = function(5, 7)
 print("Value of v using return statement:\t", v)
 
-print(function.__doc__)
+print(function.__doc__, "\n\n\n")
 
 """By help of .__doc__ we can easily know that what the 
 objective of the function and why we have created that function"""
+
+
+
+
+# Arbitrary arguments, *args
+""" 
+If we don't know how many arguments that will be passed into our function, we have to
+add * before the parameter name in the function definition.
+ """
+
+def my_function(*kids):
+    print("The youngest child is " + kids[0])
+    print("The youngest child is " + kids[1])
+    print("The youngest child is " + kids[2], "\n\n\n")
+
+my_function("Emil", "Tobias", "Linus")
+
+
+# Default parameter
+"""
+if we call the function without arguments it uses the default value
+"""
+
+def my_function1(country="Norway"):
+    print("I am from"+ "\t", country)
+
+my_function1("Sweden")
+my_function1("India")
+my_function1()              # Takes default value Norway
+my_function1("Brazil\n\n")
+
+
+
+# Passing List as an Argument
+
+"""
+we can send any data types of argument to a function 
+(string , number, list, dictionary etc.), and 
+it will be treated as same data type inside the function
+"""
+
+def my_function2(food):
+    for x in food:
+        print(x)
+fruits = ["apple", "banana", "cherry"]
+my_function2(fruits)
