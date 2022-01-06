@@ -73,3 +73,19 @@ print(d)
 i.write("Thank You")
 print(d)
 """
+
+"""
+# seek(), tell() & more()
+
+l = open("Learning2.txt")
+l.seek(10)
+print(l.tell())
+print(l.readline())
+print(l.tell())
+l.seek(11)
+print(l.tell())
+print(l.readline())
+print(l.tell())
+l.close()
+
+"""
