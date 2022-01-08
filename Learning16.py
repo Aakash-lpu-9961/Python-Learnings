@@ -66,13 +66,14 @@ h.close()
 # Handle read and write both
 
 
-"""
+
 i = open("Learning2.txt", "r+")
 d = i.read()
 print(d)
 i.write("Thank You")
 print(d)
-"""
+i.write("Thank You2")
+print(d)
 
 """
 # seek(), tell() & more()
