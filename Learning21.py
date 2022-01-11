@@ -1,0 +1,1 @@
+# Anonymous / Lambda Function In Python
