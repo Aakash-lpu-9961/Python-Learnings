@@ -41,3 +41,12 @@ print("f=", f, "\n")
 
 g= time.ctime()
 print("g=", g, "\n")
+
+
+# Miscellaneous Program
+
+
+for i in range(1, 5):
+    for j in range(1, i+1):
+        print("*", end="")
+    print()
