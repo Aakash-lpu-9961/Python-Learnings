@@ -37,4 +37,4 @@ for u in dict1:
     print("elements of dict1:\t", u)
 
 for v, w in dict1.items():
-    print(u, v)
+    print(v, w)
