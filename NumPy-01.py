@@ -1,7 +1,7 @@
 import numpy as np
 
 a=np.array([[1, 2, 3], [4, 5, 6]])
-b=np.array([1, 3, 5, 7], complex)
+b=np.array([[1, 3, 5, 7], [8, 9, 10, 11]])
 c=np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 print(b)
 print(a)
@@ -10,7 +10,7 @@ print(b.ndim)
 print(c.itemsize)
 print(b.dtype)
 print(a.shape)
-print(b.shape)
+print("This is it ", b.shape)
 print(a.size)
 print(c.size)
 
