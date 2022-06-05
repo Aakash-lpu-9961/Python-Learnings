@@ -1,6 +1,14 @@
-import mysql.connector
+import mysql.connector as c
 
-conn = mysql.connector.connect(host="localhost", password="@Aakash9961", user="root")
+conn = c.connect(host="localhost",
+                 password="@Aakash9961",
+                 user='root',
+                 database="aakashdb")
 
-if conn.is_connected():
-    print("Connection Established")
+cursor = conn.cursor()
+cursor.execute("select * from student")
+data = cursor.fetchall()
+print(data)
+
+# if conn.is_connected():
+#     print("Connection Established")
