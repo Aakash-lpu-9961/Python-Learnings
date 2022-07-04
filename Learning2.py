@@ -5,7 +5,7 @@ var2= 56    # data type = integer
 var3= 20.5  # data type = float
 var4= "My name is Aakash Kumar"    # data type = string
 
-# to identify the type of each variables we use type method
+# to identify the type of each variable we use type method
 
 print(type(var1))     # data type = integer
 print(type(var2))     # data type = integer
